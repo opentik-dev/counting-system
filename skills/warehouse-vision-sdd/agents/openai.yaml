@@ -1,0 +1,4 @@
+interface:
+  display_name: "Warehouse Vision SDD"
+  short_description: "Run the warehouse counting project workflow"
+  default_prompt: "Use the warehouse vision project workflow and preserve auditable handoffs."

@@ -1,0 +1,5 @@
+{
+  "feature_directory": "specs/001-mvp-counting",
+  "feature_name": "mvp-counting",
+  "description": "Offline auditable crossing-counting core for one warehouse doorway"
+}

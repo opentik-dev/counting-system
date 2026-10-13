@@ -1,0 +1,12 @@
+carton
+pallet
+forklift
+person
+truck
+vehicle
+metal_drum
+container
+shelf
+rack
+pallet_jack
+conveyor

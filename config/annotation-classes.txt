@@ -1,0 +1,5 @@
+carton
+pallet
+forklift
+person
+truck
