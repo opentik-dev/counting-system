@@ -1,5 +1,9 @@
 # Warehouse Vision Counting System
 
+**اللغات / Languages:** [العربية](README.md) · [English](docs/README.en.md) · [Français](docs/README.fr.md) · [Español](docs/README.es.md) · [Türkçe](docs/README.tr.md) · [中文](docs/README.zh-CN.md)
+
+[![CI](https://github.com/opentik-dev/counting-system/actions/workflows/ci.yml/badge.svg)](https://github.com/opentik-dev/counting-system/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](pyproject.toml)
+
 نواة محلية صغيرة لنظام عد كراتين وطبليات المخازن. الإصدار الحالي لا يدّعي أنه نموذج رؤية؛ بل يثبت الجزء الذي يجب أن يبقى دقيقًا وقابلًا للتدقيق: تحويل عبور جسم متتبع لخط إلى حدث `IN/OUT`، منع التكرار، وتخزين الدليل في SQLite.
 
 **الحالة:** MVP قيد التحقق الميداني — الاختبارات الأساسية ناجحة، لكن دقة الرؤية
@@ -26,6 +30,16 @@ PYTHONPATH=src python3 -m warehouse_counting.demo
 - التخزين: SQLite محلي.
 - الطبليات: لا تتحول إلى كراتين إلا بقاعدة صريحة مثل `30 كرتون/طبليّة`.
 - المؤجل: RTSP/ONVIF، تتبع الفيديو في CVAT، تشغيل نموذج segmentation في الإنتاج، تعدد الكاميرات، API، لوحة العرض، ERP.
+
+## دعوة مجتمع المطورين
+
+المشروع مفتوح للمطورين والباحثين وأصحاب الخبرة التشغيلية في المستودعات. نرحب
+بالمساهمات في منطق العد، أدوات الوسم، الاختبارات، التوثيق، الترجمة، وتجارب
+البيانات الواقعية.
+
+للمساهمة: راجع [`CONTRIBUTING.md`](CONTRIBUTING.md)، افتح Issue عند وجود فكرة
+أو مشكلة، ثم أرسل Pull Request صغيرًا ومختبرًا. نبحث خصوصًا عن مساهمين يساعدون
+في بناء فيديو قبول ثابت وحقيقة أرضية يدوية قبل اعتماد نموذج الرؤية للإنتاج.
 
 ## تقييم الفيديو الحالي
 
